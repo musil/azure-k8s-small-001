@@ -1,5 +1,5 @@
 # K8S in Azure
-It will Create resource group, vnet and K8S cluster in azure
+It will Create resource group, vnet and K8S cluster in azure. 
 To limit access to cluster API from specific IP edit file "k8s-small.tf" and change  "YOUR_IP" to your public IP.
 
 ```
@@ -21,6 +21,12 @@ terraform destroy
 ```
 
 # Infracost details
+https://www.infracost.io/
+```
+infracost breakdown --path .
+```
+
+## output:
 
 ```
 Module path: k8s-small-001

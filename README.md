@@ -8,13 +8,17 @@ api_server_authorized_ip_ranges = ["YOUR_IP/32/"]
 
 As worker node is used "Standard_B2s"
 
-# How to execute 
+# How to create cluster via terraform
 ```
 terraform init 
 terraform plan
 terraform apply
 ```
 
+# How to destroy cluster
+```
+terraform destroy
+```
 
 # Infracost details
 
